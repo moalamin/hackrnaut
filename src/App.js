@@ -10,7 +10,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Route exact to="/" component={Jumbotron} />
+        <div className="root-div">
+          <Route exact to="/" component={Jumbotron} />
+        </div>
       </Router>
     );
   }

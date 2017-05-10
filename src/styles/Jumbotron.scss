@@ -1,46 +1,46 @@
-.jumbo-logo {
-  height: 100vh;
-}
-
-#color-one {
-  animation: color-one 3s linear alternate infinite;
-}
-
-@keyframes color-one {
-  from {
-    stop-color: #29abe2;
-  }
-
-  to {
-    stop-color: #0071bc;
-  }
-}
-
-#color-two {
-  animation: color-two 3s linear alternate infinite;
-}
-
-@keyframes color-two {
-  from {
-    stop-color: #0071bc;
-  }
-
-  to {
-    stop-color: #29abe2;
-  }
-}
-
-#Layer_1 {
-  animation: fill-in 3s linear infinite;
-  transform-origin: 50% 50%;
-}
-
-@keyframes fill-in {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
+// .jumbo-logo {
+//   height: 100vh;
+// }
+//
+// #color-one {
+//   animation: color-one 3s linear alternate infinite;
+// }
+//
+// @keyframes color-one {
+//   from {
+//     stop-color: #29abe2;
+//   }
+//
+//   to {
+//     stop-color: #0071bc;
+//   }
+// }
+//
+// #color-two {
+//   animation: color-two 3s linear alternate infinite;
+// }
+//
+// @keyframes color-two {
+//   from {
+//     stop-color: #0071bc;
+//   }
+//
+//   to {
+//     stop-color: #29abe2;
+//   }
+// }
+//
+// #Layer_1 {
+//   animation: fill-in 5s linear 1;
+//   transform-origin: 50% 50%;
+// }
+//
+// @keyframes fill-in {
+//   from {
+//     opacity: 0;
+//   }
+//
+//   to {
+//     opacity: 1;
+//   }
+// }

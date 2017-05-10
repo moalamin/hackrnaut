@@ -44,3 +44,18 @@
 //     opacity: 1;
 //   }
 // }
+.jumbo-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.jumbo-logo--text {
+  font-size: 5em;
+  @media (max-width:768px) {
+    font-size: 3em;
+  }
+}

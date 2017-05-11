@@ -50,13 +50,44 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  position: relative;
   width: 100vw;
 }
 
-.jumbo-logo--text {
+.jumbo-logo__text {
   font-family: 'Crete Round', serif;
   font-size: 5em;
   @media (max-width:768px) {
     font-size: 3em;
+  }
+}
+
+.jumbo-logo__text-small {
+  font-family: 'Crete Round', serif;
+}
+
+.cloud {
+  height: 15%;
+  left: 25%;
+  position: absolute;
+  top: 20%;
+  width: 15%;
+  z-index: -1000;
+}
+
+.cloud-two {
+  @extend .cloud;
+  top: 50%;
+}
+
+.cloud__path {
+  stroke-dasharray: 1092.1859130859375;
+  stroke-dashoffset: 1092.1859130859375;
+  animation: drawcloud 5s linear forwards;
+}
+
+@keyframes drawcloud {
+  to {
+    stroke-dashoffset: 0;
   }
 }

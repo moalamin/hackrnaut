@@ -45,15 +45,16 @@
 //   }
 // }
 .jumbo-logo {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  justify-content: center;
   width: 100vw;
 }
 
 .jumbo-logo--text {
+  font-family: 'Crete Round', serif;
   font-size: 5em;
   @media (max-width:768px) {
     font-size: 3em;

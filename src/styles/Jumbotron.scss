@@ -1,49 +1,3 @@
-// .jumbo-logo {
-//   height: 100vh;
-// }
-//
-// #color-one {
-//   animation: color-one 3s linear alternate infinite;
-// }
-//
-// @keyframes color-one {
-//   from {
-//     stop-color: #29abe2;
-//   }
-//
-//   to {
-//     stop-color: #0071bc;
-//   }
-// }
-//
-// #color-two {
-//   animation: color-two 3s linear alternate infinite;
-// }
-//
-// @keyframes color-two {
-//   from {
-//     stop-color: #0071bc;
-//   }
-//
-//   to {
-//     stop-color: #29abe2;
-//   }
-// }
-//
-// #Layer_1 {
-//   animation: fill-in 5s linear 1;
-//   transform-origin: 50% 50%;
-// }
-//
-// @keyframes fill-in {
-//   from {
-//     opacity: 0;
-//   }
-//
-//   to {
-//     opacity: 1;
-//   }
-// }
 .jumbo-logo {
   align-items: center;
   display: flex;
@@ -64,30 +18,7 @@
 
 .jumbo-logo__text-small {
   font-family: 'Crete Round', serif;
-}
-
-.cloud {
-  height: 15%;
-  left: 25%;
-  position: absolute;
-  top: 20%;
-  width: 15%;
-  z-index: -1000;
-}
-
-.cloud-two {
-  @extend .cloud;
-  top: 50%;
-}
-
-.cloud__path {
-  stroke-dasharray: 1092.1859130859375;
-  stroke-dashoffset: 1092.1859130859375;
-  animation: drawcloud 5s linear forwards;
-}
-
-@keyframes drawcloud {
-  to {
-    stroke-dashoffset: 0;
-  }
+  font-weight: normal;
+  font-size: 1.3em;
+  text-align: center;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Cloud.scss';
 
 module.exports = (props) => {
   console.log(props)

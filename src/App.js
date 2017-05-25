@@ -8,7 +8,7 @@ import Jumbotron from './components/Jumbotron';
 import About from './components/About';
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <Router>
         <div className='root-div'>

@@ -30,11 +30,19 @@ body {
 }
 
 .bg-light {
-  
+  background: linear-gradient(to top right, #7Fb2f0, #add5f7);
 }
 
-.bg-dard {
+.bg-dark {
+  background: linear-gradient(to top right, #35478c, #16193b);
+}
 
+.font-light {
+  color: #add5f7;
+}
+
+.font-dark {
+  color: #16193b;
 }
 
 @import './styles/Jumbotron';

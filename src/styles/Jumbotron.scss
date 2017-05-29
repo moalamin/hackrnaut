@@ -1,23 +1,29 @@
-.jumbo-logo {
+.text-center {
+  text-align: center;
+}
+
+.jumbo {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  position: relative;
-  width: 100vw;
+  background: linear-gradient(to top right, #7Fb2f0, #add5f7);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.jumbo-logo__text {
-  font-family: 'Crete Round', serif;
-  font-size: 5em;
-  @media (max-width:768px) {
-    font-size: 3em;
+.jumbo--big-text {
+  font-family: $crete;
+  @media (min-width: 769px) {
+    font-size: 4em;
   }
 }
 
-.jumbo-logo__text-small {
-  font-weight: normal;
-  font-size: 1.2em;
-  text-align: center;
+.jumbo--blurb {
+  margin: 0 20px;
+  @media (min-width: 769px) {
+    font-family: $crete;
+    font-size: 2em;
+  }
 }

@@ -115,6 +115,7 @@ module.exports = {
           /\.json$/,
           /\.svg$/,
           /\.scss$/,
+          /\.png$/
         ],
         loader: 'url',
         query: {
@@ -165,6 +166,13 @@ module.exports = {
         include: paths.appSrc,
         loaders: ["style", "css", "sass"]
       },
+      {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+        use: [
+          'url-loader?limit=1000000',
+          'img-loader'
+        ]
+      }
     ]
   },
 

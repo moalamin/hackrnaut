@@ -29,6 +29,7 @@
     "fs-extra": "0.30.0",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
+    "img-loader": "^2.0.0",
     "jest": "18.1.0",
     "json-loader": "0.5.4",
     "node-sass": "^4.5.2",
@@ -45,6 +46,7 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "img-loader": "^2.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^4.1.1",

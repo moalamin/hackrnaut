@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Jumbotron from './components/Jumbotron';
+import Jumbotron from './components/landing_page/Jumbotron';
 import About from './components/About';
 
 class App extends Component {
